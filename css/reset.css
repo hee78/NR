@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul,ol,li{
+  list-style: none;
+}
+body{
+  color: #333;
+  line-height: 1;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+  
+.clear::after{
+  content: '';
+  display: block;
+  clear: both;
+}
